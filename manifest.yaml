@@ -1,0 +1,9 @@
+---
+applications:
+- name: SalesApp
+  path: .
+  memory: 128M
+  services:
+  - my-uaa-service
+  - destination-bot-01
+  - connectivity-bot-01
